@@ -127,11 +127,12 @@ main img {
 
 @media (max-width:420px) {
   main img {
+    position: absolute;
     left: calc(50vw - 60px);
     top: 180px;
   }
   .dresses {
-    left: calc(50vw - 75px);
+    margin-left: calc(50vw - 75px);
   }
 }
 
