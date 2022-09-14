@@ -152,10 +152,6 @@ main img {
     left: calc(50vw - 100px);
     text-align: center;
   }
-  main > .footer {
-    position: absolute;
-    top: 200vh;
-  }
 }
 
 main img:nth-child(4) {
