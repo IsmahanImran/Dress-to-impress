@@ -21,12 +21,6 @@ div img {
   border-bottom-width: 35px;
 }
 
-div img:hover {
-  width: 100vw;
-  height: 100vh;
-  border: none;
-}
-
 div {
   display: flex;
   flex-direction: row;
