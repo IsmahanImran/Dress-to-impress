@@ -139,11 +139,11 @@ main img {
   }
   header h1 {
     position: absolute;
-    top: 120px;
+    top: 140px;
     left: calc(50vw - 150px);
     width: 300px;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
   }
   header p {
     position: absolute;
