@@ -132,7 +132,7 @@ main img {
   }
   .dresses {
     position: absolute;
-    left: calc(50vw - 75px);
+    left: calc(50vw - 60px);
     top: 430px;
   }
   header h1 {
@@ -140,12 +140,14 @@ main img {
     top: 120px;
     width: 300px;
     left: calc(50vw - 150px);
+    text-align: center;
   }
   header p {
     position: absolute;
     top: 270px;
     width: 200px;
     left: calc(50vw - 100px);
+    text-align: center;
   }
 }
 
