@@ -140,6 +140,7 @@ main img {
   header h1 {
     position: absolute;
     top: 120px;
+    left: calc(50vw - 150px);
     width: 300px;
     text-align: center;
     font-size: 30px;
