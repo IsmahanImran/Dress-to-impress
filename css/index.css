@@ -144,6 +144,8 @@ main img {
     width: 300px;
     text-align: center;
     font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 1px;
   }
   header p {
     position: absolute;
