@@ -1,0 +1,169 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffcccc;
+}
+
+header h1, header p {
+  z-index: 3;
+  color: white;
+  position: absolute;
+}
+
+header h1 {
+  top: 80px;
+  width: 500px;
+  text-align: center;
+  left: calc(50vw - 250px);
+  font-size: 50px;
+  visibility: hidden;
+  animation-name: pop;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  font-family: Helvetica;
+}
+
+header p {
+  top: 160px;
+  width: 400px;
+  text-align: center;
+  left: calc(50vw - 200px);
+  font-family: sans-serif;
+  visibility: hidden;
+  animation-name: pop;
+  animation-delay: 3.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes pop {
+  0% {}
+  100% {
+    visibility: visible;
+  }
+}
+
+header img {
+  width: 50vw;
+  position: absolute;
+  height: 100vh;
+}
+
+header img:nth-of-type(1) {
+  top: 0;
+  transform: translatex(-50vw);
+  apacity: 0%;
+  animation-name: move-right;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.7s;
+}
+
+@keyframes move-right {
+  0% {}
+  70% {
+    apacity: 100%;
+  }
+  100% {
+    top: 0;
+    transform: translatex(0vw);
+    apacity: 90%;
+  }
+}
+
+header img:nth-of-type(2) {
+  top: 0;
+  transform: translatex(150vw);
+  apacity: 0%;
+  animation-name: move-left;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move-left {
+  0% {}
+  70% {
+    apacity: 100%;
+  }
+  100% {
+    top: 0;
+    transform: translatex(50vw);
+    apacity: 90%;
+  }
+}
+
+main {
+  position: absolute;
+  top: 100vh;
+  font-family: sans-serif;
+}
+
+main blockquote {
+  width: 300px;
+  text-align: center;
+}
+
+main img {
+  border: 7px solid white;
+  border-bottom-width: 30px;
+  width: 120px;
+  height: 230px;
+  border-radius: 10px;
+  position: absolute;
+  left: 62vw;
+  top: 150px;
+}
+
+main img:nth-child(4) {
+  transform: rotate(30deg);
+  transform-origin: center bottom;
+}
+
+main img:nth-child(5) {
+  transform: rotate(-30deg);
+  transform-origin: center bottom;
+}
+
+.dresses {
+  border: 1px solid #cc9900;
+  width: 150px;
+  text-align: center;
+  cursor: hand;
+  background-color: #cc9966;
+  border-radius: 6px;
+  margin-left: 60vw;
+}
+
+.dresses a {
+  text-decoration: none;
+  color: #e8e8e8;
+  font-family: sans-serif;
+}
+
+.space {
+  height: 45vh;
+  width: 100vw;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+main > .footer > a {
+  color: white;
+}
