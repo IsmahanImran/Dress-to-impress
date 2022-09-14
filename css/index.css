@@ -127,20 +127,24 @@ main img {
   main img {
     position: absolute;
     left: calc(50vw - 60px);
-    top: 180px;
+    top: 190px;
   }
   .dresses {
-    margin-left: calc(50vw - 75px);
+    position: absolute;
+    left: calc(50vw - 75px);
+    top: 430px;
   }
   header h1 {
-  top: 120px;
-  width: 300px;
-  left: calc(50vw - 150px);
+    position: absolute;
+    top: 120px;
+    width: 300px;
+    left: calc(50vw - 150px);
   }
   header p {
-  top: 200px;
-  width: 200px;
-  left: calc(50vw - 100px);
+    position: absolute;
+    top: 200px;
+    width: 200px;
+    left: calc(50vw - 100px);
   }
 }
 
