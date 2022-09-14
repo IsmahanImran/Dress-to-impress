@@ -132,10 +132,10 @@ main img {
     top: 190px;
   }
   main > div.dresses {
+    margin-left: -60vw;
     position: absolute;
-    left: -60vw;
     right: calc(50vw - 60px);
-    top: 430px;
+    top: 445px;
   }
   header h1 {
     position: absolute;
