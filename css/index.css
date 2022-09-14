@@ -141,6 +141,7 @@ main img {
   top: 200px;
   width: 200px;
   left: calc(50vw - 100px);
+  }
 }
 
 main img:nth-child(4) {
