@@ -137,7 +137,14 @@ main img {
     right: calc(50vw - 60px);
     top: 445px;
   }
- 
+  header h1 {
+    position: absolute;
+    top: 120px;
+    left: calc(50vw - 150px);
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+  }
   header p {
     position: absolute;
     top: 320px;
