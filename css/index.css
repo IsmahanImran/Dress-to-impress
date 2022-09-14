@@ -133,15 +133,15 @@ main img {
   }
   main > div.dresses {
     position: absolute;
-    left: calc(50vw - 60px);
+    left: -60vw;
+    right: calc(50vw - 60px);
     top: 430px;
   }
   header h1 {
     position: absolute;
     top: 120px;
     width: 300px;
-    left: -60vw;
-    right: calc(50vw - 150px);
+    left: calc(50vw - 150px);
     text-align: center;
     font-size: 30px;
   }
