@@ -140,8 +140,8 @@ main img {
   header h1 {
     position: absolute;
     top: 120px;
-    left: calc(50vw - 150px);
-    width: 300px;
+    left: calc(50vw - 100px);
+    width: 200px;
     text-align: center;
     font-size: 30px;
   }
