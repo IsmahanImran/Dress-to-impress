@@ -126,6 +126,9 @@ main img {
 }
 
 @media (max-width:420px) {
+  * {
+    overflow-x: hidden;
+  }
   main img {
     position: absolute;
     left: calc(50vw - 60px);
@@ -154,6 +157,9 @@ main img {
     width: 200px;
     left: calc(50vw - 100px);
     text-align: center;
+  }
+  main .footer {
+    padding: auto 5px auto 5px;
   }
 }
 
